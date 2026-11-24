@@ -1,0 +1,45 @@
+
+# Python virtual environment
+venv/
+.venv/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Jupyter files
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# Uploaded files
+uploads/*
+!uploads/.gitkeep
+
+# Machine learning datasets
+machine_learning/datasets/raw/*
+!machine_learning/datasets/raw/.gitkeep
+
+machine_learning/datasets/processed/*
+!machine_learning/datasets/processed/.gitkeep
+
+# Trained machine learning models
+machine_learning/saved_models/*
+!machine_learning/saved_models/.gitkeep
+
+# Testing files
+.pytest_cache/
+
+# IDE settings
+.vscode/
+
+# Operating system files
+.DS_Store
+Thumbs.db
